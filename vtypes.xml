@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vTypes>
+
+    <!-- Diesel Vehicle -->
+    <vType id="diesel"
+           accel="2.8"
+           decel="4.5"
+           sigma="0.5"
+           length="5.0"
+           maxSpeed="33.33"
+           emissionClass="HBEFA3/PC_D_EU4"/>
+
+    <!-- CNG Vehicle -->
+    <vType id="cng"
+           accel="2.2"
+           decel="4.5"
+           sigma="0.5"
+           length="5.0"
+           maxSpeed="28.0"
+           emissionClass="HBEFA3/PC_G_EU4"/>
+
+</vTypes>

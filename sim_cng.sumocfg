@@ -1,0 +1,12 @@
+<configuration>
+    <input>
+        <net-file value="net2.net.xml"/>
+        <route-files value="routes2_cng.rou.xml"/>
+        <additional-files value="vtypes.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="600"/>
+        <step-length value="1.0"/>
+    </time>
+</configuration>
