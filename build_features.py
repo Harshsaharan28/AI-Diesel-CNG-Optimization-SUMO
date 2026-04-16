@@ -35,7 +35,7 @@ OUT_FILE = "features_final.csv"
 # Must match AI controller: abs(accel)/A_MAX > 0.5  => 0.5 * 3.0 = 1.5 m/s^2
 HARD_ACCEL_THRESH = 1.5   # m/s^2  (= 0.5 * A_MAX)
 
-A_MAX = 3.0               # must match all controllers
+A_MAX = 3.0               
 
 EDGE_TYPE_PRIORITY = {
     "residential": 0,
