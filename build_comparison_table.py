@@ -13,9 +13,7 @@ Expected log columns (all 5 controllers):
 import os
 import pandas as pd
 
-# --------------------------------------------------
-# Log file mapping — keys match STRATEGY_LABELS in graph.py
-# --------------------------------------------------
+
 LOG_FILES = {
     "diesel": "log_diesel.csv",
     "cng":    "log_cng.csv",
