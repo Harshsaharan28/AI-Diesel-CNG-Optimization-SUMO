@@ -20,7 +20,6 @@
 - [Model Training](#model-training)
 - [Cross-Network Validation](#cross-network-validation)
 - [Outputs](#outputs)
-- [File Reference](#file-reference)
 - [Known Limitations](#known-limitations)
 - [Citation](#citation)
 
@@ -363,27 +362,6 @@ Each city produces the same set of output files:
 `SSI = 100 × switches / (num_vehicles × total_timesteps)`  
 Static baselines (Diesel, CNG) have SSI = 0. Higher SSI = more responsive switching.
 
----
-
-## File Reference
-
-| Old name | New name | Location |
-|---|---|---|
-| `run.py` | `simulate_baseline.py` | `pipeline/` |
-| `run_ai_controller_stress_safe.py` | `simulate_ai_controller.py` | `pipeline/` |
-| `run_pid_controller.py` | `simulate_pid_controller.py` | `pipeline/` |
-| `run_rule.py` | `simulate_rule_controller.py` | `pipeline/` |
-| `j_log.py` | `compute_cost_labels.py` | `pipeline/` |
-| `step3_labels.py` | `finalize_labels.py` | `pipeline/` |
-| `build_features.py` | `engineer_features.py` | `pipeline/` |
-| `graph.py` | `generate_plots.py` | `pipeline/` |
-| `build_comparison_table.py` | `aggregate_metrics.py` | `pipeline/` |
-| `best_xgboost_env_only.json` | `model.json` | `models/potheri/` |
-| `1_absolute_comparison.png` | `plot_absolute.png` | `outputs/<city>/` |
-| `2_improvement_vs_baseline.png` | `plot_relative.png` | `outputs/<city>/` |
-| `3_ssi_comparison.png` | `plot_ssi.png` | `outputs/<city>/` |
-
----
 
 ## Known Limitations
 
