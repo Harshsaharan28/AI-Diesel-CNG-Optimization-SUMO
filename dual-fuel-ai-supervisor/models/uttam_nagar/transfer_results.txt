@@ -1,0 +1,16 @@
+Zero-Shot Transfer — Uttam Nagar, Delhi
+========================================
+Model: models/potheri/model.json (trained on Potheri, NO retraining on Delhi)
+
+Accuracy:   90.95%
+F1 Score:   89.82%
+Precision:  88.14%
+Recall:     91.55%
+
+Simulation vs diesel baseline (Uttam Nagar):
+  Stress:  -53.7%
+  Fuel:    -0.7%   <- AI uniquely achieves fuel reduction below diesel
+  CO2:     -0.4%
+
+Key finding: Rule-Based shows +75.1% fuel on Uttam Nagar (vs +0% on Potheri).
+Fixed thresholds fail on dense Delhi stop-start traffic. AI generalises correctly.

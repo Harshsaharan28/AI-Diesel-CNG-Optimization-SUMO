@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Large SUMO files — regenerate with netconvert
+cities/*/net.net.xml
+cities/*/map.osm
+cities/*/*.trips.xml
+*.rou.alt.xml
+
+# All CSV data — regenerate by running the pipeline
+cities/*/data/*.csv
+
+# Node (not part of project)
+node_modules/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
