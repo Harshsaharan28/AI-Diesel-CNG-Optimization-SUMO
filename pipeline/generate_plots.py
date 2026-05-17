@@ -12,7 +12,7 @@ Outputs:
 import numpy as np
 import matplotlib.pyplot as plt
 
-from build_comparison_table import compute_all_metrics, build_table
+from aggregate_metrics import compute_all_metrics, build_table
 
 # --------------------------------------------------
 # Strategy display labels — keys match LOG_FILES in build_comparison_table.py
